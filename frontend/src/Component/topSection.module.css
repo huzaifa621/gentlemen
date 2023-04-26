@@ -1,0 +1,16 @@
+.title {
+    height: 4rem;
+    position: relative;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 44px;
+    text-align: center;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+}
+
+.instructions {
+    position: absolute;
+    top: 1.4rem;
+    right: 1rem;
+}
