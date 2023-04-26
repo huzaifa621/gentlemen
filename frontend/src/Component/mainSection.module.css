@@ -1,0 +1,30 @@
+.flexBox {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 1.2rem;
+}
+
+.flexBox textarea {
+   font-family: "Poppins", sans-serif;
+   height: 450px;
+   width: 450px;
+   padding: 1rem;
+   box-sizing: border-box;
+   background-color: whitesmoke;
+   border-radius: 5px;
+}
+
+.copyDiv {
+   position: relative;
+}
+
+.copyDiv > button {
+   position: absolute;
+   top: 1rem;
+   right: 1rem;
+}
+
+textarea:focus {
+   background-color: white;
+   outline: none;
+}
